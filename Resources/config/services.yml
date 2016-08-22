@@ -1,0 +1,10 @@
+services:
+
+    liqpay:
+      class: Riffpoint\LiqpaymentBundle\Service\Liqpay
+      arguments: ['@service_container']
+
+    liqpay.twig.extension:
+      class: Riffpoint\LiqpaymentBundle\Service\TwigLiqpayPaymentForm
+      tags:
+        - { name: twig.extension }

@@ -1,0 +1,31 @@
+{
+    "name": "riffpoint/liqpaymentbundle",
+    "description": "The LiqpaymentBundle Bundle adds support for Liqpay payment processing engine in Symfony2.",
+    "keywords": [
+        "payment",
+        "payment processing",
+        "liqpay"
+    ],
+    "homepage": "https://github.com/riffpoint/LiqpaymentBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WebCodin",
+            "email": "info@webcodin.com",
+            "homepage": "http://webcodin.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.5.0"
+    },
+
+    "autoload": {
+        "psr-4": { "Riffpoint\\LiqpaymentBundle\\": "" }
+    },
+    "archive": {
+        "exclude": [
+              "composer.phar"
+        ]
+    }
+}

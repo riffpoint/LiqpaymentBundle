@@ -1,0 +1,3 @@
+feature_bundle_payment:
+    path:      /testpayment
+    defaults:  { _controller: PaymentBundle:Base:paymentForm }

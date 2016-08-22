@@ -1,0 +1,1 @@
+The Bundle adds support for Liqpay payment processing engine in Symfony2.
